@@ -1,0 +1,42 @@
+#!/bin/bash
+#Description: Part program
+#Author: Levi
+#Date : August 2020
+echo "Where are you from  ?"
+read COUNTRY
+echo "How old are you?"
+read AGE
+if [ $AGE -gt 85 ] ; then
+    echo "Please follow the senior citizen table direction"
+    exit
+elif [ $COUNTRY ==CAMEROON ] && [ $AGE -lt 21 ] ; then
+    echo "Please follow $COUNTRY table1 direction "
+    exit
+elif [ $COUNTRY ==CAMEROON ] && [ $AGE -gt 20 ; then
+    echo "Please follow $COUNTRY table1 direction "
+    exit
+    elif [ $COUNTRY ==NIGERIA ] && [ $AGE -lt 21 ] ; then
+    echo "Please follow $COUNTRY table1 direction "
+    exit
+elif [ $COUNTRY ==NIGERIA ] && [ $AGE -gt 20 ; then
+    echo "Please follow $COUNTRY table1 direction "
+    exit
+    elif [ $COUNTRY ==TOGO ] && [ $AGE -lt 21 ] ; then
+    echo "Please follow $COUNTRY table1 direction "
+    exit
+elif [ $COUNTRY ==TOGO ] && [ $AGE -gt 20 ; then
+    echo "Please follow $COUNTRY table1 direction "
+    exit
+    elif [ $COUNTRY ==NAMIBIE ] && [ $AGE -lt 21 ] ; then
+    echo "Please follow $COUNTRY table1 direction "
+    exit
+elif [ $COUNTRY ==NAMIBIE ] && [ $AGE -gt 20 ; then
+    echo "Please follow $COUNTRY table1 direction "
+    exit
+    elif [ $COUNTRY ==KENYA ] && [ $AGE -lt 21 ] ; then
+    echo "Please follow $COUNTRY table1 direction "
+    exit
+elif [ $COUNTRY ==KENYA ] && [ $AGE -gt 20 ; then
+    echo "Please follow $COUNTRY table1 direction "
+    exit
+    fi
