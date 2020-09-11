@@ -6,7 +6,7 @@ do
 
 echo "creating user ${USERNAME}"
 
-useradd $USERNAME
+userdel $USERNAME
 
 sleep 4
 
